@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: ivory;
+}
+
+#top-bar{
+    background-color: darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.top-bar-content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a{
+    color:white;
+}
+
+#cover-image{
+height: 550px;
+width:100%;
+}
+
+.favourite-places{
+    width: 300px ;
+    height: 300px;
+}
+
+.favdivs{
+    display:inline-block;
+    margin: 20px;
+}
+
+#favmaster{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+}
+
+.travel-diary{
+    padding: 30px;
+    margin: 30px;
+}
+
+@media screen and (max-width:600px) {
+    #top-bar{
+        background-color: darkblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+    }
+    
+    .top-bar-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cover-image{
+        height: 200px;
+        width:100%;
+        }
+
+    #favmaster{
+         width: 100%;
+    }    
+
+    .favourite-places{
+        width: 150px ;
+        height: 150px;
+    }
+    
+    .favdivs{
+        display:inline-block;
+        margin: 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    #top-bar{
+        background-color: darkblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .top-bar-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cover-image{
+        height: 350px;
+        width:100%;
+        }
+
+    #favmaster{
+         width: 100%;
+    }    
+
+    .favourite-places{
+        width: 200px ;
+        height: 200px;
+    }
+    
+    .favdivs{
+        display:inline-block;
+        margin: 10px;
+        font-size: 20px;
+    }
+}

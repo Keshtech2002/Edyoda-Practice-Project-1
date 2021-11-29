@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: ivory;
+}
+
+#top-bar{
+    background-color: darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.top-bar-content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a{
+    color:white;
+}
+
+#cover-image{
+height: 550px;
+width:100%;
+}
+
+#details{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+@media screen and (max-width:600px) {
+    #top-bar{
+        background-color: darkblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+    }
+    
+    .top-bar-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cover-image{
+        height: 200px;
+        width:100%;
+        }
+    }
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    #top-bar{
+        background-color: darkblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .top-bar-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #cover-image{
+        height: 350px;
+        width:100%;
+        }
+    }
+
+
+    </style>
+</head>
+<body>
+    <header id="top-bar">
+        <span class="top-bar-content"><a href="/index.html">TRIPS</a></span>
+        <span class="top-bar-content"><a href="/about.html">ABOUT</a></span>
+        <span class="top-bar-content"><a href="/contact.html">CONTACT</a></span>
+    </header>
+
+    <div>
+        <img id="cover-image" src="/Pictures/Alaqsa mosque.jpg" alt="aqsa">
+    </div>
+
+    <h3>Masjid Al-Aqsa</h3>
+
+    <div id="details">
+        <p>
+            Al-Aqsa Mosque (Arabic: ٱلْمَسْجِد ٱلْأَقْصَىٰ‎, romanized:
+             al-Masjid al-ʾAqṣā, IPA: [ʔælˈmæsdʒɪd ælˈʔɑqsˤɑ] ( listen), "the Farthest Mosque"),
+              located in the Old City of Jerusalem, is the third holiest site in Islam.
+               The mosque was built on top of the Temple Mount, known as the Al Aqsa Compound
+                or Haram esh-Sharif in Islam. Muslims believe that Muhammad was transported from the Great Mosque of Mecca
+                 to al-Aqsa during the Night Journey. 
+                 Islamic tradition holds that Muhammad led prayers towards this site until the 16th or 17th month after his
+                  migration from Mecca to Medina, when Allah directed him to turn towards the Kaaba in Mecca.[2]
+        </p>
+    </div>
+</body>
+</html>
